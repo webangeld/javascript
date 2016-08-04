@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title>hao123头条jQuery焦点图</title>
+<link type="text/css" href="resources/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="section-focus-pic" id="section-focus-pic">
+	<div class="pages" data-scro="list">
+		<ul>
+			<li class="item">
+				<a href="#" target="_blank"><img src="resources/1.jpg" height="300" width="570"></a>
+				<h3><a href="#" target="_blank" style="color:#FFF;text-decoration:none;">天安门广场"史上最大花果篮"竣工</a></h3>
+				<div></div>
+			</li>
+			<li class="item" style="left:0px;">
+				<a href="#" target="_blank"><img src="resources/2.jpg" height="300" width="570"></a>
+				<h3><a href="#" target="_blank" style="color: #FFF; text-decoration:none;">广州:10万元得来一座"圆大厦"</a></h3>
+				<div></div>
+			</li>
+			<li class="item">
+				<a href="#" target="_blank"><img src="resources/3.jpg" height="300" width="570"></a><h3>
+				<a href="#" target="_blank" style="color: #FFF; text-decoration:none;">百度视频移动端亿万用户的背后</a></h3>
+				<div></div>
+			</li>
+		</ul>
+	</div>
+	<div class="controler" data-scro="controler">
+		<b class="down">1</b>
+		<b class="">2</b>
+		<b class="">3</b>
+	</div>
+	<div class="controler2" data-scro="controler2">
+		<a href="javascript:;" class="prev"><i></i></a>
+		<a href="javascript:;" class="next"><i></i></a>
+	</div>
+</div>
+
+<script type="text/javascript" src="resources/jQuery.js"></script>
+<!--<script type="text/javascript" src="resources/script.js"></script>-->
+<script type="text/javascript" src="resources/myscript.js"></script>
+<script type="text/javascript">
+$('#section-focus-pic').scroll();
+</script>
+</body>
+</html>
